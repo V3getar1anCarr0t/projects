@@ -1,6 +1,9 @@
-Goal: to approximate the relative values of each property in Monopoly according to their potential profits, as well as the frequency in which they are landed on.
+Goal: to approximate the relative values of each property in Monopoly according to their potenti
+al profits, as well as the frequency in which they are landed on.
 
-The first step is to isolate the values which are themselves least affected by other factors in the game.  That which is least affected is the dice rolling itself.  Every cast of the dice has the same results no matter what, unless the player is in jail.  The dice rolls go as such:
+The first step is to isolate the values which are themselves least affected by other factors in 
+the game.  That which is least affected is the dice rolling itself.  Every cast of the dice has 
+the same results no matter what, unless the player is in jail.  The dice rolls go as such:
 
 Roll of 2 (doubles) ... 0.0277777778 (1 in 36)
 Roll of 3 ............. 0.0555555556 (2 in 36)

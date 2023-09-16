@@ -1,0 +1,33 @@
+Goal: to approximate the relative values of each property in Monopoly according to their potential profits, as well as the frequency in which they are landed on.
+
+The first step is to isolate the values which are themselves least affected by other factors in the game.  That which is least affected is the dice rolling itself.  Every cast of the dice has the same results no matter what, unless the player is in jail.  The dice rolls go as such:
+
+Roll of 2 (doubles) ... 0.0277777778 (1 in 36)
+Roll of 3 ............. 0.0555555556 (2 in 36)
+Roll of 4 ............. 0.0555555556 (2 in 36)
+Roll of 4 (doubles) ... 0.0277777778 (1 in 36)
+  Total of 4 .......... 0.0833333333 (3 in 36)
+Roll of 5 ............. 0.1111111111 (4 in 36)
+Roll of 6 ............. 0.1111111111 (4 in 36)
+Roll of 6 (doubles) ... 0.0277777778 (1 in 36)
+  Total of 6 .......... 0.1388888889 (5 in 36)
+Roll of 7 ............. 0.1666666667 (6 in 36)
+Roll of 8 ............. 0.1111111111 (4 in 36)
+Roll of 8 (doubles) ... 0.0277777778 (1 in 36)
+  Total of 8 .......... 0.1388888889 (5 in 36)
+Roll of 9 ............. 0.1111111111 (4 in 36)
+Roll of 10 ............ 0.0555555556 (2 in 36)
+Roll of 10 (doubles) .. 0.0277777778 (1 in 36)
+  Total of 10 ......... 0.0833333333 (3 in 36)
+Roll of 11 ............ 0.0555555556 (2 in 36)
+Roll of 12 (doubles) .. 0.0277777778 (1 in 36)
+
+Total doubles ......... 0.1666666667 (6 in 36)
+
+	Per the chart, on average doubles are rolled one-sixth of the time.  Now, this usually would make no difference, as doubles' main function--giving an extra roll--really has no effect on the calculations made below, since the effects of every space landed on are played out, even when doubles are rolled.  No, the main anomaly comes with the third roll of doubles in a turn.  In the case that one layer throws doubles three times in a row, their third roll takes no effect, and instead they are moved to jail.  We can calculate the odds of this occurrence quite easily.  It does not matter what sequence of which doubles are thrown, so we can simply use the odds that any throw results in doubles: one-sixth, or 16.66666667%.  
+	The odds that three subsequent doubles are thrown is then calculated to be one-sixth raised to the third power, or one-two-hundred-and-sixteenth, or 0.46296296%, quite a small number.  However, this number is significant enough to impact the second decimal place in any calculation, and so we will consider it.  That will be a recurring theme throughout this process, the consideration of apparently insignificant numbers accumulating into seemingly insignificant totals.  It will all add up by the end.
+
+	The second step is to consider the chance that a player is on any given space to begin his turn.  Without knowing any information about the game, we can say that the base chance for any player to be on any space is exactly 1 in 40.  There are 40 spaces, and the chance that the player is on any one of them, without taking any of the rules into account, is an even 1/40.  However, we should know that this is not the case.  We have just decided that, taking the players' previous rolls into account, he should be in jail 0.46296296% of the time.  This means that a player does not quite have a 2.5% chance of being on each space, no, the 0.46296296% has taken 0.01157407% off the base chance of position (one-fortieth of the percentage).  
+	This leaves each space with a base chance of 2.49988426% chance of being landed on.  And, if we take a glance at the board itself, opposite the jail square is a big, very obvious "Go to Jail" square.  This square happens to send any players who land on it straight to the jail square, so we can count it as an additional 2.49988426% to the jail square.  All this considered, we now have a slightly unbalanced game board.  One space, the jail space, now has a total of 5.46273148% chance of being the space a turn is ended on, while "Go to Jail" now has a 0% chance.  
+
+	Third, we must now consider the chance and community chest cards.  We cannot yet consider all of the dice rolls, because they depend on this step.  

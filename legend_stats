@@ -127,5 +127,6 @@ OSP - (oOSP) on-stake percentage
 AVG - (oAVG) batting average
 SLG - (oSLG) slugging percentage
 
-* these stats are all identical to the same stats in the batter section, except they are also recorded pe pitcher.  i.e. each pitcher has stats which tell you
+* these stats are all identical to the same stats in the batter section, except that they are recorded per pitcher.  i.e. each pitcher has stats which tell you
   the cumulative batting average of all of the batters he's faced, only when he's faced them.
+  They are not necessarily a separate section, but they do have some differences from the previous set of pitcher stats.

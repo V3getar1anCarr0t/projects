@@ -1,7 +1,10 @@
 here is a description of each and every statistic that is recorded on this site.
 
+[offensive statistics]
 g   - games
         the number of games a player has played in.  the player must have batted or played in the field for this stat to count.
+
+[batting]
 pa  - plate appearance
         the number of times a player was sent up to bat.  
 ab  - at-bats
@@ -11,7 +14,7 @@ os  - on-stake
 a1  - (hidden stat) passed ball advance
         the number of times a batter reached first safely because of defensive negligence or error.  is the sum of (os), (-s1), and (-h)
 h   - hits
-        the number of times a player reached first safely on his own hit.
+        the number of times a player reached first safely on his own hit.  sum of (1s), (2s), (3s), (4s), and (hr)
 1s  - singles
         the number of times a player's hit resulted in a single*
 2s  - doubles
@@ -22,23 +25,44 @@ h   - hits
         the number of times a player's hit resulted in a quadruple*
 hr  - home runs
         the number of times a player's hit resulted in a home run*
-bi
-ss
-s1
-s2
-s3
-s4
-s5
-r
-o
-z
-k
-f
-t
-p
-osp
-avg
-slg
+ws  - (hidden stat) weighted stakes
+        the weighted number of stakes advanced result from a batter hit.  (21*(1s)/55) + (2s) + 2*(3s) + 3*(42) + 4*(5s)
+bi  - runs batted in
+        the number of times a runner (including the hitter) scored on the batter's hit
+
+[running]
+ss  - stolen stakes
+        number of times a runner took a base that was not free, up to the discretion of the scorer.  sume of (s1), (s2), (s3), (s4), and (s5)
+s1  - steals of first
+        number of times a runner stole first
+s2  - steals of second
+        number of times a runner stole second
+s3  - steals of third
+        number of times a runner stole third
+s4  - steals of fourth
+        number of times a runner stole fourth
+s5  - steals of fifth
+        number of times a runner stole fifth
+r  - runs
+        number of times a runner scored a run
+o  - outs
+        number of times a batter or runner was put out.  sum of (z), (k), (f), (t), and (p)
+z  - zones
+        number of times a batter zoned out (including if they hit the zone with their bat)
+k  - strikeouts
+        number of times a batter struck out
+f  - flyouts
+        number of times a batter flies out (batted ball caught on the fly)
+t  - tags
+        number of times a runner is tagged out
+p  - pegs
+        number of times a runner is pegged out
+osp- on-stake percentage
+        rate stat: (os)/(ab)
+avg- batting average
+        rate stat: (h)/(at)
+slg- slugging percentage
+        rate stat: (ws)/(at)
 
 * the size of the hit is determined by the scorer.  the size of the hit is not determined by where the batter ended up at the conclusion of the play,
   but rather where they were or which stake they were heading towards when the defense brought the ball back into the infield.

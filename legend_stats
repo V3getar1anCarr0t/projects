@@ -1,1 +1,44 @@
 here is a description of each and every statistic that is recorded on this site.
+
+g   - games
+        the number of games a player has played in.  the player must have batted or played in the field for this stat to count.
+pa  - plate appearance
+        the number of times a player was sent up to bat.  
+ab  - at-bats
+        the number of times a batter completed an at-bat.  this matters because walk-off plate appearances happen quite often, and do not count to rate stats.
+os  - on-stake
+        the number of times a batter reached first stake safely.  is the sum of (h), (s1), and (a1).
+a1  - (hidden stat) passed ball advance
+        the number of times a batter reached first safely because of defensive negligence or error.  is the sum of (os), (-s1), and (-h)
+h   - hits
+        the number of times a player reached first safely on his own hit.
+1s  - singles
+        the number of times a player's hit resulted in a single*
+2s  - doubles
+        the number of times a player's hit resulted in a double*
+3s  - triples
+        the number of times a player's hit resulted in a triple*
+4s  - quadruples
+        the number of times a player's hit resulted in a quadruple*
+hr  - home runs
+        the number of times a player's hit resulted in a home run*
+bi
+ss
+s1
+s2
+s3
+s4
+s5
+r
+o
+z
+k
+f
+t
+p
+osp
+avg
+slg
+
+* the size of the hit is determined by the scorer.  the size of the hit is not determined by where the batter ended up at the conclusion of the play,
+  but rather where they were or which stake they were heading towards when the defense brought the ball back into the infield.

@@ -1,0 +1,38 @@
+California 10
+Madera     3
+
+     4  5  8 12 14 18  R  H SS
+CGB  2  2  0  0  2  4 10 22  4
+MAD  0  0  2  1  0  0  3 19  6
+//this (^^^) is what I have been doing for the scoreboard part of box scores, I dont know if we want to continue using this format or not
+
+[Stats]
+//this section is the most important from a statistical point of view.  these are the actual input values from a .csv file which will go on to affect the rest of the website.  
+//i'm not sure how exactly this will work (i imagine you do), but i can definitely provide the .csv files once we figure out how to format them.  it will probably be a matter of simply reformatting the existing files (which are mostly done).
+
+//for example:
+California
+Player           pa ab at os  h 1s 2s 3s 4s hr bi ss s1 s2 s3 s4 s5  r  o  z  k  f  t  p   osp   avg   slg
+Gemson Cantave    4, 4, 4, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 0, 0, .250, .250, .095
+Kyle Cruz         /*im too lazy to write all this out*/
+Kanwar Dhaliwal   " "
+Rowan Herrera     " "
+Mark Macias       " "
+Thomas Sanchez    " "
+Jojo Thomas       " "
+Roshan Thomas     " "
+Daniel Yeritsyan  " "
+     totals       " "
+
+
+[Score-sheets]
+//here would be a drop-down box which would show/hide the scanned score-sheets.  we will need high-quality scans of high-quality score-sheets, so this part will need to have a lot of care and time taken to ensure that.
+
+[Other Info]
+//anything else we should add?  remember that we are coming at this from a historical documentation perspective, so i have chosen primarily information that i think has historical relevance.
+//I think we will put info re. captains in the "team" page.  so that info will exist, but I don't think it needs to be written here.  if that changes, then that's fine.
+Sunday, July 30, 2023
+Field: Vinland park, Fresno, CA
+Start Time: 7:34 p.m., local time
+Duration: 2:27
+Scorer: Chuck Jones

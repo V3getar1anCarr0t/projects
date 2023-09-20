@@ -1,15 +1,15 @@
 here is a description of each and every statistic that is recorded on this site.
 
-[offensive statistics]
+[batter statistics]
 g   - games
         the number of games a player has played in.  the player must have batted or played in the field for this stat to count.
 
 [batting]
-pa  - plate appearance
+pa  - (hidden stat)** plate appearances
         the number of times a player was sent up to bat.  
 ab  - at-bats
         the number of times a batter completed an at-bat.  this matters because walk-off plate appearances happen quite often, and do not count to rate stats.
-os  - on-stake
+os  - on-stakes
         the number of times a batter reached first stake safely.  is the sum of (h), (s1), and (a1).
 a1  - (hidden stat) passed ball advance
         the number of times a batter reached first safely because of defensive negligence or error.  is the sum of (os), (-s1), and (-h)
@@ -51,11 +51,11 @@ z  - zones
         number of times a batter zoned out (including if they hit the zone with their bat)
 k  - strikeouts
         number of times a batter struck out
-f  - flyouts
+f  - (secondary? stat)** flyouts
         number of times a batter flies out (batted ball caught on the fly)
-t  - tags
+t  - (secondary? stat)** tags
         number of times a runner is tagged out
-p  - pegs
+p  - (secondary? stat)** pegs
         number of times a runner is pegged out
 osp- on-stake percentage
         rate stat: (os)/(ab)
@@ -64,5 +64,22 @@ avg- batting average
 slg- slugging percentage
         rate stat: (ws)/(at)
 
+[fielding]
+po  - put-outs
+        number of times a fielder made an out.  sum of (fo), (po), and (to)
+fo  - flyouts
+        number of times a fielder caught a batted ball on the fly
+po  - pegouts
+        number of times a fielder made a peg out
+to  - tagouts
+        number of times a fielder made a tag out
+pi  - pickoffs
+        number of times a pitcher, catcher, or backup catcher successfully picked off a runner at a base
+a   - defensive assists
+        number of times a fielder fielded a ball which led to an out.  baseball counts any time a fielder touches the ball in an out play,
+        but I haven't been able to do that.  maybe in the future.
+
 * the size of the hit is determined by the scorer.  the size of the hit is not determined by where the batter ended up at the conclusion of the play,
   but rather where they were or which stake they were heading towards when the defense brought the ball back into the infield.
+** I'm not sure what to do with these stats, but they don't feel important enough to put in some sort of "game summary" section, but they are not unuseful.
+   I'm considering another "section" of stats, something having to do with "advanced" statistics.  yes that'd make your life harder, but I'm not sure by how much.

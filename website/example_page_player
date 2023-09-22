@@ -16,3 +16,6 @@ year team g pa ab at os  h 1s 2s 3s 4s hr bi ss s1 s2 s3 s4 s5  r  o  z  k  f  t
 total 2y  9 27 27 24 20 17  9  4  3  1  0  8 16  2  7  4  2  1 10  9  3  0  4  1  1  .741  .708  .685
 
 Pitching
+
+//the season stats for a player will be calculated from the totals of the game pages of every game they've played in
+//the career totals will be calculated on this page, by simply adding up the totals of each year and doing some calculations on them

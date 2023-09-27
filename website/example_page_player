@@ -25,3 +25,4 @@ total 2y  5  0  1  2  0  0 17 28 14  2 1.00 .607 1.89 78 64 53 39 20 14  4  1  0
 //the season stats for a player will be calculated from the totals of the game pages of every game they've played in
 //the career totals will be calculated on this page, by simply adding up the totals of each year and doing some calculations on them
 //as of now, i've finished the quakers' stats, so we can use them as a demo set
+//question: (bring this up at presentation) how do we include stats from different league or non-league games?

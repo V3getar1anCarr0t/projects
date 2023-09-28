@@ -8,5 +8,7 @@ what do we want, and what do we need, to display on each page type?
 what do we do about stats from games between an organized team and an organized team (i.e. NBQ v mutts) or exhibition games between organized teams (i.e. NBQ v CGB)?
 
 
-add numerical signature for each player
+add numerical signature (id) for each player
 entire game (everything) on one .csv file
+massive player "database"; has everything on it
+one .csv file per game, period.

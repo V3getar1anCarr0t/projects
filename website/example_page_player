@@ -4,23 +4,24 @@ Joshua Jordan Jones
 Positions: Pitcher, Infield, Backstop
 Bats: Both, Throws: Right
 Born: December 28, 2004 in Fresno, CA, USA
+High School: Veritas School (Newberg, OR)
 Debut: June 10, 2022
   v. FSD: 2 AB, 1 OS, 0 BI; 2 O, 4 R, W
 
 [Stats]
 Batting
-year team g pa ab at os  h 1s 2s 3s 4s hr bi ss s1 s2 s3 s4 s5  r  o  z  k  f  t  p  osp  avg  slg
-2022 NBQ  6 16 16 15 11 10  5  2  3  0  0  5 10  1  4  2  2  1  5  7  3  0  2  1  1 .688 .667 .661
-2023 NBQ  6 21 21 18 15 12  6  4  1  1  0  8  9  2  3  2  1  1  6  6  3  0  3  0  0 .712 .667 .627
+year club lg  g pa ab at os  h 1s 2s 3s 4s hr bi ss s1 s2 s3 s4 s5  r  o  z  k  f  t  p  osp  avg  slg
+2022 NBQ  PL  6 16 16 15 11 10  5  2  3  0  0  5 10  1  4  2  2  1  5  7  3  0  2  1  1 .688 .667 .661
+2023 NBQ  PL  6 21 21 18 15 12  6  4  1  1  0  8  9  2  3  2  1  1  6  6  3  0  3  0  0 .712 .667 .627
 --------------------------------------------------------------------------------------------------
-total 2y 12 37 37 33 26 22 11  6  4  1  0 13 19  3  7  4  3  2 11 13  6  0  5  1  1 .703 .667 .642
+total 2yrs   12 37 37 33 26 22 11  6  4  1  0 13 19  3  7  4  3  2 11 13  6  0  5  1  1 .703 .667 .642
 
 Pitching
-year team g so cg  w  l  s  r  o  z  k  pct  rpo  oef ab at os  h 1s 2s 3s 4s hr oOSP oAVG oSLG
-2022 NBQ  2  0  1  1  0  0  6  6  2  0 1.00 1.00 2.17 18 13 13  8  2  3  2  1  0 .722 .615 .828
-2023 NBQ  3  0  0  1  0  0 11 22 12  2 1.00 .500 1.82 60 51 40 31 18 11  2  0  0 .667 .608 .429
+year club lg  g so cg  w  l  s  r  o  z  k  pct  rpo  oef ab at os  h 1s 2s 3s 4s hr oOSP oAVG oSLG
+2022 NBQ  PL  2  0  1  1  0  0  6  6  2  0 1.00 1.00 2.17 18 13 13  8  2  3  2  1  0 .722 .615 .828
+2023 NBQ  PL  3  0  0  1  0  0 11 22 12  2 1.00 .500 1.82 60 51 40 31 18 11  2  0  0 .667 .608 .429
 -----------------------------------------------------------------------------------------------
-total 2y  5  0  1  2  0  0 17 28 14  2 1.00 .607 1.89 78 64 53 39 20 14  4  1  0 .679 .609 .510
+total 2yrs    5  0  1  2  0  0 17 28 14  2 1.00 .607 1.89 78 64 53 39 20 14  4  1  0 .679 .609 .510
 
 //the season stats for a player will be calculated from the totals of the game pages of every game they've played in
 //the career totals will be calculated on this page, by simply adding up the totals of each year and doing some calculations on them

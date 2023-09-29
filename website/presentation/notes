@@ -1,3 +1,27 @@
+[presentation]
+object: to demonstrate why we need a new web presence and to demonstrate how that could work
+
+pros and cons
+need for website
+want to consilidate stats + history/archive
+sitemap: how everything looks
+domain: issues and solutions
+stats: layout, details, bottom-up data compilation
+    PSA we HAVE all the numbers required to do this, but we just need the go-ahead to complete the project
+give examples:
+    rylan: games and team
+    josh: player, league, season, club
+explain goals:
+short-term goals:
+    digitize the stats (scan AND .csv-ify)
+    finish website functionality; make the update process easy
+    stylizing website: update visuals+update
+long-term goals:
+    migrating .csv files to database
+    develop new data and metadata for pages (ask the motherboard for ideas)
+really long-term goals:
+    app which can live-update scores and such on website
+
 [site]
 are we talking about/are we in charge of just the statistics side of the website or the whole archive site?
 

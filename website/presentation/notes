@@ -1,6 +1,36 @@
 [presentation]
 object: to demonstrate why we need a new web presence and to demonstrate how that could work
 
+Rylan: need for new website
+Looks bad, confusing, broken up into separate sites (that are not linked)
+https://sites.google.com/mail.fresnostate.edu/21ctownball
+https://thetownballzone.square.site/
+https://euclidselements.wixsite.com/
+
+Current design (what we've got, what we think we can do)
+Rylan: talks about domains
+Rylan: talks about site map
+Chuck: stats pages (+ contents)
+Alex: talks about history/documentation?
+
+Current state of project
+Rylan: Townball has the 21ctownball.com domain already
+Rylan: stats exist on paper
+Rylan: bare bones of site code
+
+Short term goals
+Chuck: scan score sheets
+Chuck: digitize as CSV files
+Chuck: finish website functionality
+Rylan: create website styles (extends to social media, promo material, merch, etc.)
+
+Long term goals
+Chuck: creating other "compiled" stats pages (or metadata, etc.)
+Rylan: migrate CSV files to a database
+Rylan: live game updates, score keeper web app, etc.
+Rylan: Anything that the motherboard wants to see added/included?
+
+
 pros and cons
 need for website
 current state of project
